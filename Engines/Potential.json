@@ -5,9 +5,9 @@
 
     "build" : {
         "path"      : "src/",
-        "compilers" : ["clang", "gcc"],
+        "compilers" : ["gcc"],
         "cpuflags"  : ["POPCNT", "AVX2"],
-        "systems"   : ["Windows", "Linux"]
+        "systems"   : ["Linux"]
     },
 
     "test_presets" : {
