@@ -4,8 +4,8 @@
     "source"  : "https://github.com/ksw0518/Turbulence_v4",
 
     "build" : {
-        "path"      : "src/",
-        "compilers" : ["clang"],
+        "path"      : "",
+        "compilers" : ["clang++"],
         "cpuflags"  : ["POPCNT"],
         "systems"   : ["Windows"]
     },
@@ -13,7 +13,7 @@
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "master",
+            "base_branch"     : "main",
             "book_name"       : "Pohl.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
