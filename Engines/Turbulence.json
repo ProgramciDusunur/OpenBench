@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 600000,
+    "nps"     : 1000000,
     "source"  : "https://github.com/ksw0518/Turbulence_v4",
 
     "build" : {
