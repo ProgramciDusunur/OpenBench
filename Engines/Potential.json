@@ -6,7 +6,7 @@
     "build" : {
         "path"      : "src/",
         "compilers" : ["gcc"],
-        "cpuflags"  : ["POPCNT", "AVX2"],
+        "cpuflags"  : [],
         "systems"   : ["Linux"]
     },
 
