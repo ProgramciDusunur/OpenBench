@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 100000,
+    "nps"     : 50000,
     "source"  : "https://github.com/ProgramciDusunur/Potential",
 
     "build" : {
