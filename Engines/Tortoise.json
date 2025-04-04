@@ -1,13 +1,13 @@
 {
   "private": false,
-  "nps": 720000,
+  "nps": 2200000,
   "source": "https://github.com/ElectricTortoise/Tortoise",
 
   "build": {
     "path": "",
     "compilers": [ "dotnet" ],
     "cpuflags": [],
-    "systems": [ "Windows" ]
+    "systems": [ "Windows", "Linux" ]
   },
 
   "test_presets": {
