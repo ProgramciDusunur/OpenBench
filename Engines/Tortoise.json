@@ -1,6 +1,6 @@
 {
   "private": false,
-  "nps": 2200000,
+  "nps": 900000,
   "source": "https://github.com/ElectricTortoise/Tortoise",
 
   "build": {
@@ -20,13 +20,13 @@
     },
 
     "STC": {
-      "both_options": "Threads=1 Hash=1",
+      "both_options": "Threads=1 Hash=64",
       "both_time_control": "8.0+0.08",
       "workload_size": 32
     },
 
     "LTC": {
-      "both_options": "Threads=1 Hash=1",
+      "both_options": "Threads=1 Hash=64",
       "both_time_control": "40.0+0.4",
       "workload_size": 8
     }
