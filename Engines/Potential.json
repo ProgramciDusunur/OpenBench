@@ -4,7 +4,7 @@
     "source"  : "https://github.com/ProgramciDusunur/Potential",
 
     "build" : {
-        "path"      : "build",
+        "path"      : "src/",
         "compilers" : ["gcc"],
         "cpuflags"  : ["AVX2", "FMA", "POPCNT"],
         "systems"   : ["Windows", "Linux"]
