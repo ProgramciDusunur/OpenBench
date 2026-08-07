@@ -70,8 +70,7 @@
             "both_time_control" : "N=5000",
             "book_name"         : "UHO_Lichess_4852_v1.epd",
             "win_adj"           : "movecount=5 score=2000",
-            "draw_adj"          : "movenumber=32 movecount=6 score=15",
-            "play_reverses"     : "False"
+            "draw_adj"          : "movenumber=32 movecount=6 score=15"            
         }
     }
 }
