@@ -11,7 +11,6 @@
     },
 
     "test_presets" : {
-
         "default" : {
             "base_branch"     : "main",
             "book_name"       : "UHO_Lichess_4852_v1.epd",
@@ -20,37 +19,31 @@
             "win_adj"         : "movecount=3 score=400",
             "draw_adj"        : "movenumber=40 movecount=8 score=10"
         },
-
         "STC" : {
             "both_options"      : "Threads=1 Hash=32",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32
         },
-
         "LTC" : {
             "both_options"      : "Threads=1 Hash=64",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
         },
-
         "VLTC" : {
             "both_options"      : "Threads=1 Hash=128",
             "both_time_control" : "120.0+1.2",
             "workload_size"     : 4
         },
-
         "VVLTC" : {
             "both_options"      : "Threads=1 Hash=256",
             "both_time_control" : "240.0+2.4",
             "workload_size"     : 2
         },
-
         "SMP LTC" : {
             "both_options"      : "Threads=8 Hash=256",
             "both_time_control" : "20.0+0.2",
             "workload_size"     : 16
         },
-
         "SMP STC" : {
             "both_options"      : "Threads=8 Hash=256",
             "both_time_control" : "5.0+0.05",
@@ -59,7 +52,6 @@
     },
 
     "tune_presets" : {
-
         "default" : {
             "book_name" : "UHO_Lichess_4852_v1.epd",
             "win_adj"   : "movecount=3 score=400",
@@ -68,16 +60,18 @@
     },
 
     "datagen_presets" : {
-
         "default" : {
             "win_adj"       : "None",
             "draw_adj"      : "None",
             "workload_size" : 128
         },
-
-        "40k Nodes" : {
-            "both_options"      : "Threads=1 Hash=16",
-            "both_time_control" : "N=40000"
+        "5k Nodes" : {
+            "both_options"      : "Threads=1 Hash=1 Minimal=true",
+            "both_time_control" : "N=5000",
+            "book_name"         : "UHO_Lichess_4852_v1.epd",
+            "win_adj"           : "movecount=5 score=2000",
+            "draw_adj"          : "movenumber=32 movecount=6 score=15",
+            "play_reverses"     : "False"
         }
     }
 }
