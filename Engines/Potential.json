@@ -1,11 +1,11 @@
 {
     "private" : false,
-    "nps"     : 1500000,
+    "nps"     : 1000000,
     "source"  : "https://github.com/ProgramciDusunur/Potential",
 
     "build" : {
         "path"      : "src/",
-        "compilers" : ["gcc"],
+        "compilers" : ["clang"],
         "cpuflags"  : [],
         "systems"   : ["Windows", "Linux", "Darwin"]
     },
