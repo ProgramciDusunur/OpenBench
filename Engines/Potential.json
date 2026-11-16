@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 1000000,
+    "nps"     : 650000,
     "source"  : "https://github.com/ProgramciDusunur/Potential",
 
     "build" : {
@@ -19,6 +19,16 @@
             "win_adj"         : "movecount=3 score=400",
             "draw_adj"        : "movenumber=40 movecount=8 score=10"
         },
+        "5k Nodes" : {
+            "both_options"      : "Threads=1 Hash=1",
+            "both_time_control" : "N=5000",
+            "workload_size"     : 32
+        },
+        "20k Nodes" : {
+            "both_options"      : "Threads=1 Hash=4",
+            "both_time_control" : "N=20000",
+            "workload_size"     : 32
+        },
         "STC" : {
             "both_options"      : "Threads=1 Hash=32",
             "both_time_control" : "8.0+0.08",
@@ -31,12 +41,12 @@
         },
         "VLTC" : {
             "both_options"      : "Threads=1 Hash=128",
-            "both_time_control" : "120.0+1.2",
+            "both_time_control" : "80.0+0.8",
             "workload_size"     : 4
         },
         "VVLTC" : {
             "both_options"      : "Threads=1 Hash=256",
-            "both_time_control" : "240.0+2.4",
+            "both_time_control" : "160.0+1.6",
             "workload_size"     : 2
         },
         "SMP LTC" : {
